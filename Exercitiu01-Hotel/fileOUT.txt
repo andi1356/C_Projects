@@ -1,0 +1,8 @@
+Hotelul citit de la tastatura are 1 etaje si 1 camere / etaj:
+	1.000000	
+Media ultimei coloane este: 1.000000
+
+Hotelul citit din fisier are 2 etaje si 2 camere / etaj:
+	105.900000		200.500000	
+	360.200000		120.300000	
+Media ultimei coloane este: 240.250000

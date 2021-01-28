@@ -1,0 +1,1 @@
+Acest exercitiu permite introducerea valorilor intr-o matrice de n pe m si calculeaza media de pe ultima coloana conform cerintei. Datele finale sunt afisate in fisierul 'fileOUT.txt'
