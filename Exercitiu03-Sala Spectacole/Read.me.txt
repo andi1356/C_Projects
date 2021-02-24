@@ -1,0 +1,1 @@
+Acest exercitiu permite introducerea valorilor intr-o matrice alocata dinamic citita de la tastatura fiind dupa aceea stocata, prezentata intr-un fisier 'date'

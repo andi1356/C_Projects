@@ -1,1 +1,3 @@
 Acest exercitiu permite introducerea valorilor intr-o matrice de n pe m si calculeaza media de pe ultima coloana conform cerintei. Datele finale sunt afisate in fisierul 'fileOUT.txt'
+
+IMPORTANT: pentru ca exercitiu sa citeasca din fisier corespunzator fisierul trebuie rulat dintr-o fereastra noua de terminal folosing comanda: './exe', prin dublu click fisierul exe va avea eroare la citire

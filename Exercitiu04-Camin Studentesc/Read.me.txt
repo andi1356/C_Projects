@@ -1,0 +1,1 @@
+Acest exercitiu necesita introducerea in linia de comanda a unui nume pentru fisierul de date output, de asemenea permite alegera unor moduri de prezentare a datelor.
