@@ -1,3 +1,6 @@
+/*
+	Author: Andrei-Antonio Robu (andrei-antonio.robu@student.tuiasi.ro)
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include "header.h"
@@ -8,7 +11,7 @@
 int **citireMatrice(int n,int m)
 {
 	int i,j,**a=0;
-	
+
 	a=(int**)malloc(n*sizeof(int*));
 	for(i=0;i<n;++i)
 	{
@@ -34,7 +37,7 @@ void dealoc2d(int **a,int n)
 	{
 		free(a[i]);
 		a[i]=0;
-	
+
 	}
 	free(a);
 }
@@ -57,7 +60,7 @@ double **rezMatrice(int **a,int n,int m,double c)
 			{
 				b[i][j]=c/a[i][j];
 			}
-			
+
 		}
 	}
 	return b;
@@ -74,7 +77,7 @@ void afisare(int lflag,int tflag,int pflag,int **a,double **b,int n,int m,double
 		for(j=0;j<m;++j)
 		{
 			fprintf(f,"%2.2lf ",b[i][j]);
-		
+
 		}
 		fprintf(f,"\n");
 	}
@@ -128,7 +131,7 @@ double rezT(int **a,int n,int m,double c)
 		}
 	}
 	return sum;
-}	
+}
 int *rezP(int **a,int n,int m)
 {
 	int *p,i,j,etj=0,nr=0,aux=0;;
@@ -145,7 +148,7 @@ int *rezP(int **a,int n,int m)
 				nr=aux;
 				etj=j;
 			}
-		
+
 		}
 	}
 	p[0]=nr;
@@ -153,4 +156,3 @@ int *rezP(int **a,int n,int m)
 
 	return p;
 }
-

@@ -1,3 +1,6 @@
+/*
+	Author: Andrei-Antonio Robu (andrei-antonio.robu@student.tuiasi.ro)
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -45,7 +48,7 @@ int **citireM(int l,int c)
 	int i,j;
 	a=aloc2d(l,c);
 	printf("Introduceti 1 sau 0 in functie de ocuparea locurile pe rand:\nExemplu pentru 4 locuri pe rand se poate introduce: 1 1 0 1\n");
-	for(i=0;i<l;++i)  
+	for(i=0;i<l;++i)
 	{
 		printf("rand %d: ",i);
 		for(j=0;j<c;++j)
@@ -73,10 +76,10 @@ char *den()
 {
 	char *den=0;
 	char buff[101];
-	
+
 	printf("\ndenumirea spectacolului este:");
 	fgets(buff,100,stdin);
-	
+
 	buff[strlen(buff)-1]='\0';
 	den=(char*)xmalloc(strlen(buff)+1*sizeof(char));
 	strcpy(den,buff);
@@ -119,7 +122,6 @@ void afisare(char *den,int **a,double *v,double procent,int l,int c)
 		fprintf(f,"- pret/loc: %.2lf lei\n",v[i]);
 	}
 	fprintf(f,"\nProcentul de ocupare al salii a fost: %.2f%%",procent);
-	
+
 	fclose(f);
 }
-	

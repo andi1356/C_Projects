@@ -1,3 +1,6 @@
+/*
+	Author: Andrei-Antonio Robu (andrei-antonio.robu@student.tuiasi.ro)
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include "header.h"
@@ -78,8 +81,3 @@ void afisareFisier(double hotel[][30],int ii,int jj,double hotelF[30][30],int ii
 	fprintf(f,"Media ultimei coloane este: %f",medieUltimaColoana(iiF,jjF,hotelF));
 	fclose(f);
 }
-
-
-
-
-

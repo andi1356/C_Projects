@@ -1,3 +1,6 @@
+/*
+	Author: Andrei-Antonio Robu (andrei-antonio.robu@student.tuiasi.ro)
+*/
 #ifndef header_h_
 #define header_h_
 

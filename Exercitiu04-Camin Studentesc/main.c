@@ -1,3 +1,6 @@
+/*
+	Author: Andrei-Antonio Robu (andrei-antonio.robu@student.tuiasi.ro)
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,7 +15,7 @@ int main(int argc,char *argv[])
 	double c,**b=0;
 	char buf[100],*den=0;
 
-	
+
 
 
 	if(argc>1)
@@ -34,7 +37,7 @@ int main(int argc,char *argv[])
 				ok=1;
 			}
 		}
-		
+
 	}
 	if(ok==1)
 	{
@@ -50,10 +53,10 @@ int main(int argc,char *argv[])
 					case 't':tflag=1;
 						 break;
 					case 'p':pflag=1;
-						 break;			
+						 break;
 				}
-			
-			
+
+
 			}
 		}
 		printf("Numele caminului:");
@@ -69,12 +72,12 @@ int main(int argc,char *argv[])
 		scanf("%d",&m);
 		printf("Urmeaza sa introduceti numarul de studenti din fiecare camera:\n");
 		a=citireMatrice(n,m);
-	
+
 		printf("Pretul camerei este= ");
 		scanf("%lf",&c);
-		
+
 		b=rezMatrice(a,n,m,c);
-		
+
 		afisare(lflag,tflag,pflag,a,b,n,m,c,f);
 
 
@@ -89,7 +92,7 @@ int main(int argc,char *argv[])
 		printf("Fisier inexistent in linia de comanda\nIntroduceti un fisier in linia de comanda pentru date de output\n");
 		printf("De asemenea in linia de comanda se pot alege urmatoarele: -l -t -p\n\t-l pentru a afisa cate camere sunt libere\n\t-t pentru suma totala incasata lunar\n\t-p pentru a afisa camera cu cei mai multi studenti\n\n");
 		exit(EXIT_FAILURE);
-	
+
 	}
 
 

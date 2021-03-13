@@ -1,3 +1,6 @@
+/*
+	Author: Andrei-Antonio Robu (andrei-antonio.robu@student.tuiasi.ro)
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include "header.h"
